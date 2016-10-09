@@ -1,0 +1,57 @@
+@font-face {
+  font-family: OpenSans;
+  src: url("fonts/OpenSans-Light.ttf"); }
+* {
+  font-family: 'OpenSans';
+  color: #FFF; }
+
+.wrap {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1140px;
+  display: table; }
+
+body {
+  margin: 0;
+  background-color: #333;
+  display: table;
+  width: 100%; }
+
+.box-vendas {
+  max-width: 400px;
+  width: 35%;
+  margin: 100px auto 0; }
+  .box-vendas .box-title, .box-vendas .box-content {
+    background-color: #111;
+    width: 100%;
+    display: table;
+    width: 100%; }
+    .box-vendas .box-title span, .box-vendas .box-content span {
+      float: left;
+      width: 33%;
+      text-align: center; }
+    .box-vendas .box-title > div, .box-vendas .box-content > div {
+      width: 99.5%;
+      display: table;
+      border-bottom: 1px solid #FFF; }
+  .box-vendas .box-content {
+    background-color: #555;
+    border: 1px solid #FFF; }
+  .box-vendas .box-form span {
+    width: 100%; }
+  .box-vendas .box-form form {
+    padding: 0 5%;
+    display: block;
+    margin: 30px 0; }
+    .box-vendas .box-form form input {
+      background-color: #222;
+      padding: 10px 5px;
+      width: 100%;
+      margin: 5px auto;
+      border: none; }
+    .box-vendas .box-form form [type="submit"] {
+      width: 40%;
+      margin: 20px auto;
+      display: block; }
+
+/*# sourceMappingURL=style.css.map */
